@@ -1,0 +1,82 @@
+body {
+    background: #70945F;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: rgb(255, 226, 153);
+    font-family: 'Times New Roman', cursive;
+    font-size: 94px;
+  }
+
+  h2 {
+    text-decoration:underline;
+  }
+  
+  h1 span {
+    font-size: 42px;
+  }
+  
+  .game_table {
+    text-align: center;
+    color: white;
+  }
+  
+  button {
+    width: 15%;
+    font-size: 32px;
+    background: white;
+    margin-bottom: 30px;
+    border: 1px white solid;
+    color: black;
+  }
+  
+  .card {
+    background: white;
+    height: 300px;
+    line-height: 300px;
+    width: 225px;
+    border-radius: 5%;
+    margin: 50px auto;
+    font-size: 56px;
+    color: black;
+  }
+  
+  .card.back {
+    background-image: url("../images/card_back.jpg");
+    background-size: cover;
+    
+  }
+  
+  .pOne, .pTwo, .status {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .status {
+    width: 300px;
+    font-size: 26px;
+  }
+  
+  .status, .info {
+    width: 300px;
+    font-size: 26px;
+  }
+
+  footer{
+      
+      font-size: 17px;
+      font-weight: bold;
+      font-family: arial;
+      margin: 20px;
+      padding: 30px;
+      border: 5px solid rgb(255, 226, 153);
+      border-radius: 30px;
+      
+    
+   
+    
+      color: white;
+    
+  }
